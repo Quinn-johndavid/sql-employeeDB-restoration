@@ -44,7 +44,8 @@ create table salaries(
     emp_no int,
     salary  int,
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
-	
+
+------------These select statements are here to test both the layout of the table, and to see if the csvs were imported properly with its repspective table
 select * from titles;
 select * from departments;
 select * from employees;
